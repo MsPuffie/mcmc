@@ -3,7 +3,6 @@ node_js:
   - v10
   
 before_script:
-  - npm install --save mcmc
   - npm install graphlib
   - npm install jasmine -g
   
