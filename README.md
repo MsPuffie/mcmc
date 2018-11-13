@@ -8,8 +8,10 @@
 ```sh
 $ npm install --save mcmc
 
+install the jasmine framework for unit tests
 $ npm install -g jasmine
 
+install the graphlib from global
 $ npm install graphlib
 ```
 
@@ -18,6 +20,7 @@ $ npm install graphlib
 ```js
 To run the project, go to the lib directory and run
 $ node index.js
+
 To run the test, run
 $ npm test
 ```
