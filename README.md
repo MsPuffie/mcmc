@@ -18,9 +18,8 @@ $ npm install graphlib
 ```js
 To run the project, go to the lib directory and run
 $ node index.js
-
-
-mcmc('Rainbow');
+To run the test, run
+$ npm test
 ```
 ## License
 
