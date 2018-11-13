@@ -1,16 +1,24 @@
 # mcmc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> dnksjdfn
+> This is project aims to simulate a Markov Chain in which each element is a graph.
+
+
 
 ## Installation
 
 ```sh
 $ npm install --save mcmc
+
+$ npm install -g jasmine
+
+$ npm install graphlib
 ```
 
 ## Usage
 
 ```js
-const mcmc = require('mcmc');
+To run the project, go to the lib directory and run
+$ node index.js
+
 
 mcmc('Rainbow');
 ```
