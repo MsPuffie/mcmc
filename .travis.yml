@@ -4,4 +4,9 @@ node_js:
   - v8
   - v6
   - v4
+  
+before_script:
+  - npm install graphlib
+  - npm install jasmine -g
+  
 after_script: cat ./coverage/lcov.info | coveralls
